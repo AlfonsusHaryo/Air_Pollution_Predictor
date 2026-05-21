@@ -1,0 +1,24 @@
+{
+    "model_name": "Random Forest Final Candidate",
+    "target": "AQI Category",
+    "features": [
+        "CO AQI Value",
+        "Ozone AQI Value",
+        "NO2 AQI Value",
+        "PM2.5 AQI Value"
+    ],
+    "class_mapping": {
+        "0": "Good",
+        "1": "Moderate",
+        "2": "Unhealthy for Sensitive Groups",
+        "3": "Unhealthy",
+        "4": "Very Unhealthy",
+        "5": "Hazardous"
+    },
+    "accuracy": 0.998934583422118,
+    "weighted_f1": 0.9989416099944322,
+    "macro_f1": 0.9860499774291491,
+    "hyperparameter_tuning": false,
+    "reason_no_tuning": "Baseline model sudah memiliki performa tinggi, sehingga tuning tidak digunakan untuk menghindari optimasi berlebihan.",
+    "smote_used": true
+}
